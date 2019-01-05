@@ -1,0 +1,22 @@
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: aquamarine;
+}
+#header-img{
+  height: 100%;
+}
+.nav-link{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+@media (max-width: 200px){
+  video {
+    width: auto;
+  }
+}
